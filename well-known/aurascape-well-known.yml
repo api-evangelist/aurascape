@@ -1,0 +1,23 @@
+generated: '2026-07-18'
+method: searched
+source: https://aurascape.ai/
+host: https://aurascape.ai
+note: >-
+  Probed the standard /.well-known/ discovery surface plus root security.txt on
+  the Aurascape marketing/product host. None are published (all 404). Aurascape
+  ships no public API, so no OpenID/OAuth authorization-server metadata or API
+  catalog is exposed. Recorded for auditability; no WellKnown pointer wired since
+  no document was found.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404

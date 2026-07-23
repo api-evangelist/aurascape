@@ -1,8 +1,28 @@
 aid: aurascape
 name: Aurascape
-description: Aurascape is a company surfaced as a portfolio company of menlo-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Aurascape is an AI-native security company (Santa Clara, CA) that gives
+  enterprises real-time visibility, intent-based controls, and data protection
+  for every AI interaction. Its AI-native cloud proxy sits inline to discover and
+  monitor thousands of generative, embedded, and agentic AI applications across
+  browsers, SaaS, copilots, and IDEs; classify and protect multimodal data
+  (text, code, voice, video) in real time; and secure AI agents from development
+  through production, including testing for prompt injection and data leakage and
+  enforcing runtime guardrails through its Zero-Bypass MCP Gateway. Aurascape is a
+  Menlo Ventures portfolio company profiled in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/aurascape/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://aurascape.ai/wp-content/uploads/2025/07/site-logo-1.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +31,44 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- AI Security
+- Security
+- Artificial Intelligence
+- Agentic AI
+- Data Protection
+- Data Loss Prevention
+- Governance
+- Cybersecurity
+- MCP Gateway
+- Enterprise
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/aurascape-domain-security.yml
+- type: Website
+  url: https://aurascape.ai/
+- type: Blog
+  url: https://aurascape.ai/resources/blog/
+- type: BlogRSS
+  url: https://aurascape.ai/feed/
+- type: GitHubOrganization
+  url: https://github.com/aurascape
+- type: PrivacyPolicy
+  url: https://aurascape.ai/privacy-policy/
+- type: TermsOfService
+  url: https://aurascape.ai/terms-of-service/
+- type: LLMsTxt
+  url: llms/aurascape-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
