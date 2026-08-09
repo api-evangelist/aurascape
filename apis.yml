@@ -1,15 +1,12 @@
 aid: aurascape
 name: Aurascape
-description: >-
-  Aurascape is an AI-native security company (Santa Clara, CA) that gives
-  enterprises real-time visibility, intent-based controls, and data protection
-  for every AI interaction. Its AI-native cloud proxy sits inline to discover and
-  monitor thousands of generative, embedded, and agentic AI applications across
-  browsers, SaaS, copilots, and IDEs; classify and protect multimodal data
-  (text, code, voice, video) in real time; and secure AI agents from development
-  through production, including testing for prompt injection and data leakage and
-  enforcing runtime guardrails through its Zero-Bypass MCP Gateway. Aurascape is a
-  Menlo Ventures portfolio company profiled in the API Evangelist network.
+description: Aurascape is an AI-native security company (Santa Clara, CA) that gives enterprises real-time
+  visibility, intent-based controls, and data protection for every AI interaction. Its AI-native cloud
+  proxy sits inline to discover and monitor thousands of generative, embedded, and agentic AI applications
+  across browsers, SaaS, copilots, and IDEs; classify and protect multimodal data (text, code, voice,
+  video) in real time; and secure AI agents from development through production, including testing for
+  prompt injection and data leakage and enforcing runtime guardrails through its Zero-Bypass MCP Gateway.
+  Aurascape is a Menlo Ventures portfolio company profiled in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/aurascape/refs/heads/main/apis.yml
 accessModel:
   pricing: unknown
@@ -31,7 +28,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-18'
+modified: '2026-08-08'
 tags:
 - Company
 - AI Security
@@ -67,8 +64,14 @@ common:
   url: https://aurascape.ai/terms-of-service/
 - type: LLMsTxt
   url: llms/aurascape-llms.txt
+- type: Product
+  url: https://aurascape.ai/product/
+- type: About
+  url: https://aurascape.ai/company/
 x-enrichment:
   date: '2026-07-19'
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-merged-from:
+- aurascape-ai
