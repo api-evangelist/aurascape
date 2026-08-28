@@ -8,6 +8,17 @@ description: Aurascape is an AI-native security company (Santa Clara, CA) that g
   prompt injection and data leakage and enforcing runtime guardrails through its Zero-Bypass MCP Gateway.
   Aurascape is a Menlo Ventures portfolio company profiled in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/aurascape/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
