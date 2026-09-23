@@ -1,0 +1,31 @@
+# Front Door AI Index — aurascape — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: aurascape
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: aurascape.ai
+  final_host: aurascape.ai
+  ownership: own
+  owner: aurascape
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 73
+  host_score: 73
+  density: 75.49
+  words: 967
+  tiers:
+    agentic: 11
+    core: 62
+    model: 0
+  ambiguous: 14
+  top_terms:
+    AI: 61
+    agent: 14
+    agentic: 4
+    AI agent: 3
+    copilot: 3
+    gen ai: 1
+    prompts: 1
